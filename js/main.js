@@ -15,4 +15,8 @@ document.querySelector("#guess").onclick = function () {
         document.querySelector("#notify").innerHTML="Số bạn nhập nhỏ hơn rồi";
         document.querySelector("#notify").className="alert alert-danger";
     }
+    if(number==guessNumber){
+        document.querySelector("#congratulationtulation").innerHTML="Chúc mừng bạn ^_^";
+        document.querySelector("#congratulationtulation").className="alert alert-success";
+    }
 }
